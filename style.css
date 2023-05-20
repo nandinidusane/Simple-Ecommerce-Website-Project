@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f1f1f1;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+  margin: 0;
+  color: #333;
+  text-align: center;
+}
+
+h1 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+#cart {
+  display: flex;
+  align-items: center;
+}
+
+#cart-items {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.product {
+  display: inline-block;
+  margin: 20px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.product:hover {
+  transform: translateY(-3px);
+}
+
+.product img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 20px;
+}
+
+.product p {
+  font-size: 16px;
+  color: #888;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#pay-button {
+  background-color: #f44336;
+}
+
+#pay-button:hover {
+  background-color: #d32f2f;
+}
